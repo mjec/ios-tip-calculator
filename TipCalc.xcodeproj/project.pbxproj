@@ -14,6 +14,9 @@
 		A4F287691F19A2B800C27733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F287671F19A2B800C27733 /* LaunchScreen.storyboard */; };
 		A4F287741F19A2B800C27733 /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287731F19A2B800C27733 /* TipCalcTests.swift */; };
 		A4F2877F1F19A2B800C27733 /* TipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2877E1F19A2B800C27733 /* TipCalcUITests.swift */; };
+		A4F287911F1AC91A00C27733 /* Singletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287901F1AC91A00C27733 /* Singletons.swift */; };
+		A4F287931F1AC93700C27733 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287921F1AC93700C27733 /* SettingsViewController.swift */; };
+		A4F287951F1ACEBD00C27733 /* NumericTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287941F1ACEBD00C27733 /* NumericTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A4F2877A1F19A2B800C27733 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2877E1F19A2B800C27733 /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		A4F287801F19A2B800C27733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F287901F1AC91A00C27733 /* Singletons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singletons.swift; sourceTree = "<group>"; };
+		A4F287921F1AC93700C27733 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A4F287941F1ACEBD00C27733 /* NumericTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		A4F2875D1F19A2B800C27733 /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				A4F287901F1AC91A00C27733 /* Singletons.swift */,
+				A4F287921F1AC93700C27733 /* SettingsViewController.swift */,
 				A4F2875E1F19A2B800C27733 /* AppDelegate.swift */,
 				A4F287601F19A2B800C27733 /* ViewController.swift */,
+				A4F287941F1ACEBD00C27733 /* NumericTextFieldDelegate.swift */,
 				A4F287621F19A2B800C27733 /* Main.storyboard */,
 				A4F287651F19A2B800C27733 /* Assets.xcassets */,
 				A4F287671F19A2B800C27733 /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 			files = (
 				A4F287611F19A2B800C27733 /* ViewController.swift in Sources */,
 				A4F2875F1F19A2B800C27733 /* AppDelegate.swift in Sources */,
+				A4F287931F1AC93700C27733 /* SettingsViewController.swift in Sources */,
+				A4F287951F1ACEBD00C27733 /* NumericTextFieldDelegate.swift in Sources */,
+				A4F287911F1AC91A00C27733 /* Singletons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
