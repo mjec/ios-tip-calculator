@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src="http://imgur.com/bddix6y.gif" title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -44,7 +44,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - There's still a lot about Swift I don't know
 - It took me a surprisingly long time to figure out how to get a Table View to work; it has to be in the right kind of view controller apparently
 - I found refactoring annoyingly difficult, in particular changing the names of things which had been linked from the interface builder
-- I was surpsied that `FloatingPointRoundingRule` vaues can't be natively stored in `UserDefaults`, so I had to do my own ugly serialization 
+- I was surpsied that `FloatingPointRoundingRule` vaues can't be natively stored in `UserDefaults`, so I had to do my own ugly serialization
+- It would be good to figure out how autolayout works so that this would be a bit nicer when moving between landscape and portrait
+- I'm definitely not a designer; this could use a lot of work aesthetically
 
 ## License
 
