@@ -35,9 +35,6 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="TA3-q1-6LI" appends="YES" id="hbB-hl-cUe"/>
-                                        </connections>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" placeholder="$" textAlignment="right" minimumFontSize="17" id="Jjw-Yq-Kyu">
                                         <rect key="frame" x="16" y="46" width="343" height="104"/>
@@ -131,7 +128,6 @@
                         <action selector="onTapOutside:" destination="BYZ-38-t0r" id="aYc-x5-qlk"/>
                     </connections>
                 </tapGestureRecognizer>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="TA3-q1-6LI" userLabel="Long press - tip percentage"/>
             </objects>
             <point key="canvasLocation" x="525.5" y="118.5"/>
         </scene>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A46518751F22C35800C11055 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A46518731F22C35800C11055 /* LICENSE */; };
+		A46518761F22C35800C11055 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A46518741F22C35800C11055 /* README.md */; };
 		A4F2875F1F19A2B800C27733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2875E1F19A2B800C27733 /* AppDelegate.swift */; };
 		A4F287611F19A2B800C27733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287601F19A2B800C27733 /* ViewController.swift */; };
 		A4F287641F19A2B800C27733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F287621F19A2B800C27733 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A46518731F22C35800C11055 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A46518741F22C35800C11055 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A4F2875B1F19A2B800C27733 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F2875E1F19A2B800C27733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F287601F19A2B800C27733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		A4F287521F19A2B800C27733 = {
 			isa = PBXGroup;
 			children = (
+				A46518731F22C35800C11055 /* LICENSE */,
+				A46518741F22C35800C11055 /* README.md */,
 				A4F2875D1F19A2B800C27733 /* TipCalc */,
 				A4F287721F19A2B800C27733 /* TipCalcTests */,
 				A4F2877D1F19A2B800C27733 /* TipCalcUITests */,
@@ -243,6 +249,7 @@
 			files = (
 				A4F287691F19A2B800C27733 /* LaunchScreen.storyboard in Resources */,
 				A4F287661F19A2B800C27733 /* Assets.xcassets in Resources */,
+				A46518751F22C35800C11055 /* LICENSE in Resources */,
 				A4F287641F19A2B800C27733 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46518761F22C35800C11055 /* README.md in Sources */,
 				A4F287611F19A2B800C27733 /* ViewController.swift in Sources */,
 				A4F2875F1F19A2B800C27733 /* AppDelegate.swift in Sources */,
 				A4F287931F1AC93700C27733 /* SettingsViewController.swift in Sources */,
@@ -519,6 +527,7 @@
 				A4F287851F19A2B800C27733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F287861F19A2B800C27733 /* Build configuration list for PBXNativeTarget "TipCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +536,7 @@
 				A4F287881F19A2B800C27733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F287891F19A2B800C27733 /* Build configuration list for PBXNativeTarget "TipCalcUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +545,7 @@
 				A4F2878B1F19A2B800C27733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
