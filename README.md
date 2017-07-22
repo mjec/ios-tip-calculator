@@ -45,8 +45,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - It took me a surprisingly long time to figure out how to get a Table View to work; it has to be in the right kind of view controller apparently
 - I found refactoring annoyingly difficult, in particular changing the names of things which had been linked from the interface builder
 - I was surpsied that `FloatingPointRoundingRule` vaues can't be natively stored in `UserDefaults`, so I had to do my own ugly serialization
-- It would be good to figure out how autolayout works so that this would be a bit nicer when moving between landscape and portrait
 - I'm definitely not a designer; this could use a lot of work aesthetically
+- There was a bug in the intial version I uploaded where remembering the bill amount across restarts <10 minutes was not working
 
 ## License
 

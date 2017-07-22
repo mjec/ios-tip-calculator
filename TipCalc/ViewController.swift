@@ -27,10 +27,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         billTotalField.delegate = CurrencyFormatter.textFieldDelegate
-        // we have to call updateData() before updateTotalsDisplay(), even though it's also called in viewWillAppear
-        updateData()
-        updateTotalsDisplay()
-
         billTotal = Preferences.Defaults.billTotal
         tipPercentage = Preferences.defaultTipPercentage
 
@@ -41,6 +37,15 @@ class ViewController: UIViewController {
                 tipPercentage = Preferences.tipPercentage
             }
         }
+
+        if billTotal != 0 {
+            billTotalField.text = CurrencyFormatter.instance.string(from: billTotal as NSNumber)
+        }
+        
+        // we have to call updateData() before updateTotalsDisplay(), even though it's also called in viewWillAppear
+        updateData()
+        updateTotalsDisplay()
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
