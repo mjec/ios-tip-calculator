@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A46518751F22C35800C11055 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A46518731F22C35800C11055 /* LICENSE */; };
-		A46518761F22C35800C11055 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A46518741F22C35800C11055 /* README.md */; };
+		A46518761F22C35800C11055 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A46518741F22C35800C11055 /* README.md */; };
 		A4F2875F1F19A2B800C27733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F2875E1F19A2B800C27733 /* AppDelegate.swift */; };
 		A4F287611F19A2B800C27733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F287601F19A2B800C27733 /* ViewController.swift */; };
 		A4F287641F19A2B800C27733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F287621F19A2B800C27733 /* Main.storyboard */; };
@@ -249,6 +249,7 @@
 			files = (
 				A4F287691F19A2B800C27733 /* LaunchScreen.storyboard in Resources */,
 				A4F287661F19A2B800C27733 /* Assets.xcassets in Resources */,
+				A46518761F22C35800C11055 /* README.md in Resources */,
 				A46518751F22C35800C11055 /* LICENSE in Resources */,
 				A4F287641F19A2B800C27733 /* Main.storyboard in Resources */,
 			);
@@ -275,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A46518761F22C35800C11055 /* README.md in Sources */,
 				A4F287611F19A2B800C27733 /* ViewController.swift in Sources */,
 				A4F2875F1F19A2B800C27733 /* AppDelegate.swift in Sources */,
 				A4F287931F1AC93700C27733 /* SettingsViewController.swift in Sources */,
